@@ -1,0 +1,202 @@
+/* Global Styles
+color palette
+Rainforest =#264e2a
+antiquewhite=#FAEBD7
+Contrasted=#11fb87
+
+
+---------------------------------------------------- */
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+ body{
+   font-family: 'Merriweather', serif;
+   margin: 0;
+}
+
+.responsive {
+  width: auto;
+  max-width: auto;
+  height: auto;
+}
+
+h1 h2{
+   font-family: 'Playfair Display', serif;
+   font-weight:400;
+}
+
+h1{
+  font-size: 80px;
+}
+h2{
+  font-size: 40px;
+  margin-top: 0;
+}
+h3{
+  margin: 0;
+}
+a{
+  color: #264e2a;
+}
+
+a:hover{
+  text-decoration: none;
+
+}
+.content-wrap{
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 60px 50px;
+  overflow: hidden;
+
+}
+ .col-narrow{
+   width: 30%;
+   float: left;
+   padding-right: 3%;
+   min-height: 175px;
+
+ }
+ .col-wide {
+   width: 70%;
+   float: left;
+   padding-left: 20px;
+   min-height: 175px;
+ }
+  .download{
+    bottom: 0;
+    right: 0;
+  }
+/* Nav Styles */
+  nav{
+    text-align: center;
+    background-color: antiquewhite;
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  nav a{
+    display: inline-block;
+      padding: 15px 20px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+      scroll-behavior: smooth;
+  }
+
+    .btn{
+      text-decoration: none;
+      background-color: #264e2a;
+      color: #FAEBD7;
+      padding: 10px;
+      display: inline-block;
+    }
+
+/* Header and Footer
+
+---------------------------------------------------- */
+/* Header styles */
+header, footer{
+  background: linear-gradient(rgba(250, 235, 215, 0.8), rgba(1250, 235, 215, 0.5)),
+  url(photos/89.jpg) no-repeat fixed;
+    background-size: cover;
+color:#264e2a;
+}
+.profile-img{
+  width: 475px;
+  border-radius: 60% ;
+  margin-right: 30px;
+  text-align: center;
+
+}
+  header{
+    text-align: right;
+    padding-top: 50px;
+    position: relative;
+  }
+/* Footer Styles */
+footer{
+  text-align: center;
+}
+
+.contact-info a {
+  background: #FAEBD7;
+  padding: 10px;
+  display: inline-block;
+}
+
+
+header h1, header h2{
+    color: #264e2a;
+    margin: 0;
+
+
+
+}
+img{
+  float:left;
+
+}
+
+
+
+/* Work Experience
+---------------------------------------------------- */
+.work{
+  background: #FAEBD7;
+  color: #264e2a;
+}
+
+h3~ p{
+margin: 0;
+}
+
+/* Education
+---------------------------------------------------- */
+.education{
+  background: #264e2a;
+  color: #FAEBD7;
+
+}
+.skills{
+  background: #FAEBD7;
+  color: #264e2a;
+
+}
+/* Media Queries */
+  @media(min-width: 900px){
+
+     .content-wrap{
+      max-width: 950px;
+      margin: 0 auto;
+      padding: 60px 50px;
+      overflow: hidden;
+
+    }
+     .col-narrow{
+       width: 30%;
+       float: left;
+       padding-right: 3%;
+       min-height: 175px;
+     }
+
+  }
+
+ @media(max-width: 899px){
+   header{
+     text-align: center;
+   }
+    .profile.img{
+      width: 200px;
+    }
+ }
+
+.box-1{
+}
